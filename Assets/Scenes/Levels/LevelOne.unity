@@ -810,7 +810,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _maxScore: 1000
-  _levelCompleted: 1
+  _levelCompleted: 2
 --- !u!4 &1365031885
 Transform:
   m_ObjectHideFlags: 0
