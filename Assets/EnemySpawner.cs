@@ -7,7 +7,7 @@ public class EnemySpawner : MonoBehaviour
     // Start is called before the first frame update
     [SerializeField] private GameObject _enemy;
     [SerializeField] private GameObject[] _spawnPoints;
-    [SerializeField] private int _spawnDelay;
+    [SerializeField] private float _spawnDelay;
     void Start()
     {
         InvokeRepeating("GenerateNum", 0, _spawnDelay);
