@@ -51,6 +51,11 @@ public class LevelChanger : MonoBehaviour
         Debug.Log("Go to MainMenu");
         SceneManager.LoadScene("MainMenu");
     }
+    public void GoToInfinity()
+    {
+        Debug.Log("Go to infinity level");
+        SceneManager.LoadScene("Infinity");
+    }
     // Update is called once per frame
     void Update()
     {
