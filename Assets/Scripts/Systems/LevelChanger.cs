@@ -14,6 +14,7 @@ public class LevelChanger : MonoBehaviour
     public void GoToLevelSelect()
     {
         Debug.Log("Go to level selection");
+        PlayerPrefs.SetInt("level", 1);
         SceneManager.LoadScene("LevelSelect");
     }
     public void GoToLevelOne()
@@ -55,6 +56,11 @@ public class LevelChanger : MonoBehaviour
     {
         Debug.Log("Go to infinity level");
         SceneManager.LoadScene("Infinity");
+    }
+    public void GoToRules()
+    {
+        Debug.Log("Go to infinity level");
+        SceneManager.LoadScene("Rules");
     }
     // Update is called once per frame
     void Update()
